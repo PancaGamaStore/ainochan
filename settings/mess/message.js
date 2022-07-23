@@ -79,7 +79,7 @@ ${J1} *OTHERS* *MENU* ${J4}\n${P4}${J2} #sc\n${J2} #script\n${J2} #sourcecode\n$
 ${J3}
 ${J1} *OWNER* *MENU* ${J4}\n${P4}${J2} #join\n${J2} #leave\n${J2} #creategc\n${J2} #block\n${J2} #unblock\n${J2} #bc\n${J2} #bcgc\n${J2} #getcase\n${J2} #del\n${J2} #delete\n${J2} #autostikerpc on\n${J2} #autostikerpc off\n${J2} #cowner add 628xxx\n${J2} #cowner del 628xxx\n${J2} #prem add 628xxx\n${J2} #prem del 628xxx${P4}
 ${J3}
-${J1} *STORE* *MENU* ${J4}\n${P4}${J2} #list\n${J2} #dellist key\n${J2} #topupff id\n${J2} #convertsaldo\n${J2} #addlist key@produk\n${J2} #update key@produk\n${J2} #proses @tag produk\n${J2} #done @tag produk${P4}
+${J1} *STORE* *MENU* ${J4}\n${P4}${J2} #list\n${J2} #dellist key\n${J2} #addlist key@produk\n${J2} #update key@produk\n${J2} #proses @tag produk\n${J2} #done @tag produk${P4}
 ${J3}
 ${J1} *GROUP* *MENU* ${J4}\n${P4}${J2} #kick\n${J2} #add\n${J2} #promote\n${J2} #demote\n${J2} #setname\n${J2} #setdesc\n${J2} #setppgrup\n${J2} #tagall\n${J2} #hidetag\n${J2} #vote\n${J2} #upvote\n${J2} #devote\n${J2} #hadir\n${J2} #absen\n${J2} #tidakhadir\n${J2} #deleteabsen\n${J2} #hapusabsen\n${J2} #listabsen\n${J2} #cekabsen\n${J2} #linkgc\n${J2} #linkgrup\n${J2} #linkgroup\n${J2} #cekvote\n${J2} #delvote\n${J2} #group\n${J2} #editinfo\n${J2} #antilink\n${J2} #autostikergc on\n${J2} #autostikergc on${P4}
 ${J3}
