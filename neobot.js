@@ -4293,7 +4293,7 @@ break
 case 'p': case 'proses':
 if (!m.isGroup) return sticGroup(from)
 if (!isAdmins) return sticAdmin(from)
-proses = `「 *TRANSAKSI PENDING⏳* 」\n\n\`\`\`📆 TANGGAL : ${jangwak}\n⌚ JAM     : ${time2}\n✨ STATUS  : Pending\n🛒 PRODUK : ${(args[1])}\`\`\`\n\nPesanan ${@nama}\n\nSedang di proses!`
+proses = `「 *TRANSAKSI PENDING⏳* 」\n\n\`\`\`📆 TANGGAL : ${jangwak}\n⌚ JAM     : ${time2}\n✨ STATUS  : Pending\n🛒 PRODUK : ${(args[1])}\`\`\`\n\nPesanan ${args[0]}\n\nSedang di proses!`
 m.reply(proses)
             break
         case 'd': case 'done':
