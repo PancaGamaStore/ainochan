@@ -4298,7 +4298,6 @@ proses = `「 *TRANSAKSI PENDING⏳* 」\n\n\`\`\`📆 TANGGAL : ${jangwak}\n⌚
 m.reply(proses)
             break
         case 'd': case 'done':
-if (!q) return m.reply(`Example:\n#proses @tag produk`)
 if (!m.isGroup) return sticGroup(from)
 if (!isAdmins) return sticAdmin(from)
             sukses = `「 *TRANSAKSI BERHASIL✅* 」\n\n\`\`\`📆 TANGGAL : ${jangwak}\n⌚ JAM     : ${time2}\n✨ STATUS  : Berhasil\n🛒 PRODUK : ${(args[1])}\`\`\`\n\nTerimakasih ${(args[0])}\n\nDi Tunggu Next Order Nya🙏`
